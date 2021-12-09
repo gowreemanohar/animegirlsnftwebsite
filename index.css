@@ -77,6 +77,8 @@ a{
     text-align:center;
     color:#d504ff;
     font-size:2em;
+    text-shadow:0px 0px 2px black;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
 }
 .footer{
     display:flex;
@@ -92,6 +94,34 @@ a{
     opacity:0.7;
     color:black;
 }
+.buygirl{
+    display:flex;
+    justify-content:center;
+
+}
+.btn{
+    text-decoration: none;
+    border:none;
+    /* font-size:16px; */
+    text-align: center;
+    border-radius:12px;
+    padding:20px 20px;
+    color:white;
+    background-color:rgb(143, 84, 238);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
+
+
+
+
+
+
 
 .gradient-text1 {
     /* font-size:3em; */
